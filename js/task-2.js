@@ -11,7 +11,7 @@ class Storage {
     }
 
     addItem(newItem) {
-       return this.#items.push(newItem);
+        this.#items.push(newItem);
 
     }
 
